@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>Crud App</title>
+        <title>Todo App</title>
     </head>
     <body>
         <div class="container" style="margin-top:50px;">
@@ -12,36 +12,31 @@
                     <button type="button" name="Add" data-target="#myModal" data-toggle="modal" class="btn btn-success">Add Task</button>
                     <button type="button" name="print" class="btn btn-warning float-right">Print</button>
                     <br><br>
-                        <!-- Button trigger modal -->
-                        <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-                          Launch demo modal
-                        </button> -->
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                          <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLongTitle">Add Task</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                  <span aria-hidden="true">&times;</span>
-                                </button>
-                              </div>
-                              <div class="modal-body">
-                                <form class="" action="index.html" method="post">
-                                    <div class="form-group">
-                                        <label>Task Name</label>
-                                        <input type="text" name="task" required class="form-control">
-                                    </div>
-                                    <input type="submit" name="send" value="send" class="btn btn-success">
-                                </form>
-                              </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                              </div>
-                            </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Add Task</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <form class="" action="index.html" method="post">
+                                <div class="form-group">
+                                    <label>Task Name</label>
+                                    <input type="text" name="task" required class="form-control">
+                                </div>
+                                <input type="submit" name="send" value="send" class="btn btn-success">
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                           </div>
                         </div>
+                      </div>
+                    </div>
                     <table class="table">
                       <thead>
                         <tr>
